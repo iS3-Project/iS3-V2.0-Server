@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iS3.MiniServer", "iS3.MiniServer\iS3.MiniServer.csproj", "{674E22D2-C3E9-4C22-9C43-6CA82EA33343}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1506B010-BB25-44A0-839C-073F1069C841} = {1506B010-BB25-44A0-839C-073F1069C841}
+		{B7CEFCBF-F7F9-4C2B-8660-52E518A79B3A} = {B7CEFCBF-F7F9-4C2B-8660-52E518A79B3A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iS3.Geology", "iS3.Geology\iS3.Geology.csproj", "{B7CEFCBF-F7F9-4C2B-8660-52E518A79B3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iS3.Core", "iS3.Core\iS3.Core.csproj", "{1506B010-BB25-44A0-839C-073F1069C841}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iS3.Monitoring", "iS3.Monitoring\iS3.Monitoring.csproj", "{0BAEB289-1CD7-403C-846C-AC7936620033}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{674E22D2-C3E9-4C22-9C43-6CA82EA33343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674E22D2-C3E9-4C22-9C43-6CA82EA33343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674E22D2-C3E9-4C22-9C43-6CA82EA33343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674E22D2-C3E9-4C22-9C43-6CA82EA33343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7CEFCBF-F7F9-4C2B-8660-52E518A79B3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7CEFCBF-F7F9-4C2B-8660-52E518A79B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7CEFCBF-F7F9-4C2B-8660-52E518A79B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7CEFCBF-F7F9-4C2B-8660-52E518A79B3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1506B010-BB25-44A0-839C-073F1069C841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1506B010-BB25-44A0-839C-073F1069C841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1506B010-BB25-44A0-839C-073F1069C841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1506B010-BB25-44A0-839C-073F1069C841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BAEB289-1CD7-403C-846C-AC7936620033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BAEB289-1CD7-403C-846C-AC7936620033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BAEB289-1CD7-403C-846C-AC7936620033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BAEB289-1CD7-403C-846C-AC7936620033}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA59AC82-5B2A-4669-A6BF-1BF167AB50D9}
+	EndGlobalSection
+EndGlobal
