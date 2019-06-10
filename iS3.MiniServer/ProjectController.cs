@@ -45,5 +45,12 @@ namespace iS3.MiniServer
             var result = (repo.context as CoreContext).ProjectLocation.Where(x => x.CODE == code).FirstOrDefault();
             return result;
         }
+
+        [Route("testConnection")]
+        [HttpGet]
+        public string testConnection()
+        {
+            return "成功连接到服务！";
+        }
     }
 }
