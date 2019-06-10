@@ -117,10 +117,10 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Fakes Include="Fakes\EntityFramework.fakes" />
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
-    <Fakes Include="Fakes\EntityFramework.fakes" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
